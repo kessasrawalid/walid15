@@ -1,0 +1,126 @@
+footer {
+    height: 390px;
+    flex-shrink: 0;
+    border-top: 1px dashed #000;
+    width: 100%;
+    background: #0a0a0a;
+    color:white;
+}
+.contenu-footer {
+    width: 1200px;
+    margin: 0 auto;
+    
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 20px;
+    padding: 50px 0 0px;
+}
+
+.bloc {
+    width: 25%;
+    margin: 0 30px;
+}
+
+/* contact */
+.footer-contact h5,
+.footer-services h5,
+.footer-horaires h5,
+.footer-medias h5 {
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+
+.footer-contact p {
+    padding: 5px 0;
+}
+
+/* Services */
+
+
+.liste-services,
+.liste-horaires,
+.liste-media {
+    list-style-type: none;
+}
+.liste-services li {
+    padding: 2px 0;
+}
+.liste-services a {
+    text-decoration: none;
+    color:white;
+}
+.liste-services a:hover {
+    color: rgb(238, 23, 23);
+}
+
+
+/* Medias */
+
+.liste-media {
+    position: relative;
+    right: 10px;
+}
+.liste-media img {
+    width: 40px;
+    margin: 10px 10px;
+}
+.liste-media a {
+    text-decoration: none;
+    color:white;
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+}
+
+#nous{
+   
+    color: white;
+    
+    margin-left: 160px;
+    margin-top: 140px;
+    
+    width: 70%;
+    text-align: center;
+    background:linear-gradient(250deg, black, transparent);
+    animation: changebackgroundnous 1.5s ;
+    animation-iteration-count: infinite;
+}
+
+@keyframes changebackgroundnous {
+    100%{
+      background-color: rgb(87, 8, 51);
+      background:linear-gradient(10deg, black,rgb(153, 45, 117) );
+    }
+     
+    
+     
+}
+#aide{
+    color: white;
+    
+    margin-left: 160px;
+    margin-top: 140px;
+    
+    width: 70%;
+    text-align: center;
+    background:rgb(85, 71, 71)
+    
+}
+#aide h2{
+    color: black
+}
+ 
+#contacter{
+        color: white;
+    
+        margin-left: 160px;
+        margin-top: 140px;
+        
+        width: 70%;
+        text-align: center;
+      
+
+
+    }
+}
